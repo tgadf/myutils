@@ -1,5 +1,5 @@
-from utils import RecentFiles
-from utils import DirInfo
+from myutils import RecentFiles
+from myutils import DirInfo
 from os import getcwd
 
 

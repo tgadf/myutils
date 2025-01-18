@@ -1,5 +1,5 @@
 # import the package
-import utils
+import myutils
 
 def test_hello():
     assert True, f"Dumb test"

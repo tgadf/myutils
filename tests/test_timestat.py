@@ -1,1 +1,1 @@
-from utils import Timestatdef test_timestat():    ts = Timestat(cmt="Hello")    assert isinstance(ts, Timestat), f"ts {type(ts)} is not a Timestat"
+from myutils import Timestatdef test_timestat():    ts = Timestat(cmt="Hello")    assert isinstance(ts, Timestat), f"ts {type(ts)} is not a Timestat"
