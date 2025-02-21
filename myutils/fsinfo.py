@@ -200,7 +200,6 @@ class DirInfo(FSBase):
     
     def __init__(self, fsValue):
         super().__init__(fsValue)
-        print("HI THOMAS")
         self.glob = self.dirpath.glob
         self.mkDir = self.dirpath.mkDir
         self.mvDir = self.dirpath.mvDir
